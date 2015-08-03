@@ -1,0 +1,60 @@
+h1 {
+	color: #333;
+	font: 'helvetica';
+	font-size: 3em;
+	font-style: italic; 200px;
+}
+figure {
+width: 200px;
+float: left;
+margin:0;
+Text-aligh: center;
+}
+
+/* for all screens */
+p {    	
+	color: #000;
+	width: 100px;
+}
+header {
+	padding: 20px;
+	background-color: aquamarine;
+}
+
+/* for all screens larger than 1200px wide */
+@media (min-width: 1200px) {
+    p {
+        color: red;
+        max-width: 1200px
+        margin: 0 auto;
+    }
+}
+h1 {color: #ccc;
+} 
+}
+h2 {color: #ddd;
+}   
+}
+h3 {color: #aaa;
+}
+p {
+	width: 200px;
+	line-height: 175;
+}
+p#wionderfulness {
+
+}
+ol {
+	font-weight: bold;
+}
+body {
+	color: #333;
+	font-weight: lighter;
+}
+footer {
+	color: #eee;
+	background-color: #000;
+}
+ol li a {
+	font-weight: bold;
+}
